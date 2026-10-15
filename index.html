@@ -571,6 +571,7 @@
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; }
   }
+@media (max-width:768px) { .engagement-grid { grid-template-columns:1fr !important; } }
 </style>
 </head>
 <body>
@@ -583,7 +584,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#approach">Approach</a></li>
-      <li><a href="#approach">How I work</a></li>
+      <li><a href="#engagement">Engagement</a></li>
       <li><a href="#foundations">Delivery model</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#testimonials">Clients</a></li>
@@ -720,7 +721,7 @@
     </div>
 
     <div style="margin-top:1px;background:var(--dark);padding:32px;border:1px solid var(--dark);">
-      <p style="font-size:11px;font-weight:600;color:var(--gold);letter-spacing:0.08em;margin-bottom:20px;">ONGOING SERVICES — BILLED MONTHLY AFTER YOUR FOUNDATION IS LIVE</p>
+      <p style="font-size:11px;font-weight:600;color:var(--gold);letter-spacing:0.08em;margin-bottom:20px;">OPTIONAL ONGOING SERVICES — SCOPE AND FEES AGREED SEPARATELY</p>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;">
         <div>
           <div style="font-size:14px;font-weight:500;color:var(--white);margin-bottom:6px;">Social media & content</div>
@@ -739,7 +740,36 @@
   </div>
 </section>
 
-<!-- PORTFOLIO -->
+<!-- ENGAGEMENT MODEL -->
+<section id="engagement" style="background:var(--bg);padding:80px 24px;">
+  <div class="section-inner">
+    <p class="section-label">Engagement model</p>
+    <h2 class="section-title">Build for today. Extend when needed. Evolve with confidence.</h2>
+    <p style="font-size:16px;color:var(--stone);line-height:1.8;max-width:760px;margin-bottom:32px;">Three ways to work together, shaped around your business needs. They are not compulsory stages: start with a new foundation, improve an existing one, or arrange ongoing support when it adds value.</p>
+    <div class="engagement-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;">
+      <div style="background:var(--white);border:1px solid var(--border);border-top:4px solid var(--teal);padding:28px 24px;">
+        <p style="font-size:12px;font-weight:700;letter-spacing:0.08em;color:var(--teal);margin-bottom:12px;">01 · ESTABLISH</p>
+        <h3 style="font-family:'DM Serif Display',serif;font-size:22px;margin-bottom:12px;">A foundation that works.</h3>
+        <p style="font-size:14px;line-height:1.8;color:var(--stone);margin-bottom:18px;">Set up only the essentials your business needs now: a clear digital presence, reliable processes, useful data, and the right starting tools.</p>
+        <p style="font-size:13px;font-weight:600;color:var(--dark);">Defined scope · One-time project fee</p>
+      </div>
+      <div style="background:var(--white);border:1px solid var(--border);border-top:4px solid var(--gold);padding:28px 24px;">
+        <p style="font-size:12px;font-weight:700;letter-spacing:0.08em;color:var(--gold);margin-bottom:12px;">02 · TRANSITION</p>
+        <h3 style="font-family:'DM Serif Display',serif;font-size:22px;margin-bottom:12px;">A capability worth adding.</h3>
+        <p style="font-size:14px;line-height:1.8;color:var(--stone);margin-bottom:18px;">When a business goal demands more, assess the gap, agree on the outcome, and add or integrate technology only when justified. Preserve what already works.</p>
+        <p style="font-size:13px;font-weight:600;color:var(--dark);">Agreed outcome · Fixed project budget</p>
+      </div>
+      <div style="background:var(--white);border:1px solid var(--border);border-top:4px solid #534AB7;padding:28px 24px;">
+        <p style="font-size:12px;font-weight:700;letter-spacing:0.08em;color:#534AB7;margin-bottom:12px;">03 · EVOLVE</p>
+        <h3 style="font-family:'DM Serif Display',serif;font-size:22px;margin-bottom:12px;">Keep improving with purpose.</h3>
+        <p style="font-size:14px;line-height:1.8;color:var(--stone);margin-bottom:18px;">Support, measure, maintain and refine systems as the business changes. Regular oversight is available when useful, not required by default.</p>
+        <p style="font-size:13px;font-weight:600;color:var(--dark);">Optional support · Agreed annual retainer</p>
+      </div>
+    </div>
+    <p style="font-size:14px;line-height:1.8;color:var(--stone);margin-top:24px;max-width:900px;">Business goals come before software purchases. You retain control of your business accounts and data; third-party software remains subject to its own licence terms. Any new subscriptions, external costs, or significant changes are explained and approved before commitment. No automatic retainer and no duplicate billing for separately scoped projects.</p>
+    <a href="#contact" style="display:inline-block;margin-top:16px;font-size:14px;font-weight:600;color:var(--teal);text-decoration:none;">Discuss your next step →</a>
+  </div>
+</section>
 
 <!-- APPROACH -->
 <section id="approach" style="background:var(--dark);padding:80px 24px;">
@@ -807,7 +837,7 @@
   <div class="section-inner">
     <p class="section-label">How we work</p>
     <h2 class="section-title">Capability-driven delivery.</h2>
-    <p style="font-size:16px;color:var(--stone);line-height:1.8;max-width:680px;margin-bottom:8px;">Every engagement starts with what the business needs to be able to do — then delivers in defined stages, each one earning the next through evidence. The same model applies whether we are building a first website or a full marketing technology stack.</p>
+    <p style="font-size:16px;color:var(--stone);line-height:1.8;max-width:680px;margin-bottom:8px;">We begin with the business capability you need, assess what is already in place, and deliver only the next justified improvement. The same model applies whether we are building a first website or a full marketing technology stack.</p>
     <p style="font-size:16px;color:var(--teal);font-weight:500;line-height:1.8;max-width:680px;margin-bottom:48px;">What your business needs to do — not what a vendor wants to sell you. Each layer earns the next. We recommend when the evidence supports it.</p>
     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);">
       <div style="background:var(--white);padding:28px 24px;">
@@ -819,7 +849,7 @@
       <div style="background:var(--white);padding:28px 24px;border-left:3px solid var(--teal);">
         <div style="font-size:11px;font-weight:600;color:var(--teal);letter-spacing:0.06em;margin-bottom:12px;">CORE — T1</div>
         <div style="font-family:'DM Serif Display',serif;font-size:16px;color:var(--dark);margin-bottom:12px;line-height:1.3;">Minimum viable foundation</div>
-        <p style="font-size:13px;color:var(--stone);line-height:1.7;">Every client starts here. The foundation every other layer builds on.</p>
+        <p style="font-size:13px;color:var(--stone);line-height:1.7;">For businesses establishing their first digital foundation. Existing foundations are assessed and reused.</p>
         <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
           <div style="font-size:12px;color:var(--teal);margin-bottom:4px;">Website · Email · Brand identity</div>
           <div style="font-size:12px;color:var(--teal);">GA4 · Search Console · Google Business</div>

@@ -1,0 +1,29 @@
+# Sindhe Consulting
+
+> Sindhe | Digital & Brand Consulting — Sravan Kumar Sindhe, Munich, Germany.
+> Architecture-disciplined digital foundations and MarTech for businesses at every scale.
+
+- Live site: https://sravanskumar.github.io/sindhe-consulting/
+- Source: https://github.com/sravanskumar/sindhe-consulting
+- Agent context: https://github.com/sravanskumar/sindhe-consulting/blob/main/AGENTS.md
+
+## About
+
+Sravan Kumar Sindhe is a branding and digital consulting partner based in Munich. Former Managing Delivery Architect in Capgemini's Adobe CTO Office practice. Delivery owner from first website through full marketing technology stack. TOGAF-informed methodology scaled for SMEs. Author of MACE (open-source MCP for AEM governance) and designer of PACE (predictive content staging for AI-agent environments). Collaborates with Prof. Dr. Markus Degen on senior EMEA client engagements.
+
+## Services (summary)
+
+Digital foundation (web, email, brand), MarTech and CX advisory, CRM and operating models, analytics with consent, market prep and export desk patterns for B2B clients.
+
+## Portfolio (external)
+
+- Royyal Green Tech Impexs / Royvera Foods — https://royyalexports.in/
+- Maanvik Handicrafts — preview on GitHub Pages
+- Jiya Handmade — https://jiyahandmade.com/
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/sindhe-sravan-kumar-63b16766/
+GitHub: https://github.com/sravanskumar
+
+Enquiry form on site is client-side only until HubSpot is connected.

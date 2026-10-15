@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Sindhe Consulting website
 
-Read [AGENTS.md](../AGENTS.md) for full context.
+Read `AGENTS.md` at the repository root for full context.
 
 - **Single file site:** `index.html` only — no build step. GitHub Pages from repo root → https://sravanskumar.github.io/sindhe-consulting/
 - **Not Royyal:** Client work lives in `royyal-exports`; Royyal is a portfolio link only here.

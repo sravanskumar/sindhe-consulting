@@ -13,11 +13,15 @@ Sravan Kumar Sindhe is a branding and digital consulting partner based in Munich
 
 ## Services (summary)
 
-Digital foundation (web, email, brand), MarTech and CX advisory, CRM and operating models, analytics with consent, market prep and export desk patterns for B2B clients.
+For growing businesses: digital foundations (web, email, brand), lead capture, CRM and analytics. For established teams: MarTech, customer experience architecture, integrations and applied AI. Export sales development is a separate commercial engagement, not part of standard technology consulting.
 
 ## Engagement model
 
-Establish: defined-scope, one-time digital foundation setup. Transition: separately approved, business-goal-driven capability improvements with fixed project budgets. Evolve: optional ongoing support under an agreed annual retainer. Clients may enter at the stage appropriate to their current capabilities; no compulsory sequence or automatic recurring fees. Clients control their accounts and data; third-party software is licensed under vendor terms.
+Establish: defined-scope, one-time digital foundation setup. Transition: separately approved, business-goal-driven capability improvements with fixed project budgets. Evolve: optional ongoing support under an agreed annual retainer. This describes commercial engagement and fees, not a technical maturity ladder. Clients may enter at the stage appropriate to their needs; no compulsory sequence or automatic recurring fees. Clients control their accounts and data; third-party software is licensed under vendor terms.
+
+## Capability roadmap
+
+Baseline, Core, Growth and Scale describe illustrative technical capabilities, not compulsory packages or paid stages. Existing assets and systems are assessed and reused where appropriate.
 
 ## Portfolio (external)
 
@@ -30,4 +34,4 @@ Establish: defined-scope, one-time digital foundation setup. Transition: separat
 LinkedIn: https://www.linkedin.com/in/sindhe-sravan-kumar-63b16766/
 GitHub: https://github.com/sravanskumar
 
-Enquiry form on site is client-side only until HubSpot is connected.
+The on-site enquiry form is a visibly disabled preview: it does not submit, transmit, or store enquiries. Contact via LinkedIn. No response-time guarantee is offered without an agreed support arrangement.

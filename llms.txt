@@ -11,6 +11,10 @@
 
 Sravan Kumar Sindhe is a branding and digital consulting partner based in Munich. Former Managing Delivery Architect in Capgemini's Adobe CTO Office practice. Delivery owner from first website through full marketing technology stack. TOGAF-informed methodology scaled for SMEs. Author of MACE (open-source MCP for AEM governance) and designer of PACE (predictive content staging for AI-agent environments). Collaborates with Prof. Dr. Markus Degen on senior EMEA client engagements.
 
+## Why Sindhe
+
+Delivery owner from a first digital foundation through a full MarTech stack, with enterprise architecture discipline at the scale of the business. Business objectives and existing systems come first; tools come after the architecture. Engagements are for businesses willing to invest in foundations before marketing spend. A small number of engagements at a time.
+
 ## Services (summary)
 
 For growing businesses: digital foundations (web, email, brand), lead capture, CRM and analytics. For established teams: MarTech, customer experience architecture, integrations and applied AI.

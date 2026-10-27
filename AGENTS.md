@@ -15,7 +15,7 @@ This is **not** the Royyal Exports client repo (`royyal-exports`). Royyal appear
 |------|--------|
 | **Stack** | Single static file — `index.html` (HTML + embedded `<style>` + inline styles on some blocks) |
 | **Build** | None — no npm, no bundler, no framework |
-| **JS** | Minimal — contact form `handleForm()` shows success UI only (no backend yet) |
+| **JS** | Minimal — contact form posts to Formspree and shows success or error on the page |
 | **Assets** | `assets/` — profile photos (JPEG/PNG), referenced from About section |
 | **Fonts** | Google Fonts: **DM Serif Display** (headings), **Inter** (body) |
 
@@ -53,7 +53,7 @@ CSS variables in `:root` (edit consistently):
 | `#portfolio` | Portfolio | Maanvik, **Royvera/Royyal**, Jiya Handmade — external links |
 | `#testimonials` | Clients | |
 | `#thought` | Thinking | MACE, PACE, white paper teasers |
-| `#contact` | Contact | Dark panel; **form is client-side stub** — comment says replace with HubSpot when portal exists |
+| `#contact` | Contact | Dark panel; form posts to Formspree (`https://formspree.io/f/mpppdkvp`) and emails the published Gmail address |
 
 **Footer:** German Kleinunternehmer § 19 UStG, Munich address, Steuernummer (legal — do not remove without owner approval).
 
@@ -72,9 +72,10 @@ When editing copy, preserve factual claims (Capgemini, AJO first in Europe, lice
 
 ## Contact form (current behaviour)
 
-- `onsubmit="handleForm(event)"` — prevents default, shows `#form-success`, disables form visually.
-- **Does not send email or POST to API.** Planned: HubSpot embed (see HTML comment above form).
-- Do not wire to a random webhook without owner approval.
+- `#contact-form` posts to Formspree with `fetch`, then shows `#form-success` or `#form-error`. The visitor stays on the page.
+- Required fields: name, email, company. Industry and any intent outside the checkboxes are free text (`industry`, `intent_other`).
+- A hidden `_gotcha` field is the spam honeypot. Do not remove it.
+- Do not replace this endpoint without owner approval.
 
 ---
 

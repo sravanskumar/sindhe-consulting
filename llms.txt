@@ -31,7 +31,8 @@ Baseline, Core, Growth and Scale describe illustrative technical capabilities, n
 
 ## Contact
 
+Email: sindhesravankumar@gmail.com
 LinkedIn: https://www.linkedin.com/in/sindhe-sravan-kumar-63b16766/
 GitHub: https://github.com/sravanskumar
 
-The on-site enquiry form is a visibly disabled preview: it does not submit, transmit, or store enquiries. Contact via LinkedIn. No response-time guarantee is offered without an agreed support arrangement.
+The on-site enquiry form sends the fields entered on the page by email via Formspree. No response-time guarantee is offered without an agreed support arrangement.

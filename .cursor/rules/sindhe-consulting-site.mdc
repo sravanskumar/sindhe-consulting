@@ -11,5 +11,5 @@ Read `AGENTS.md` at the repository root for full context.
 - **Not Royyal:** Client work lives in `royyal-exports`; Royyal is a portfolio link only here.
 - **Design:** CSS vars `--teal`, `--gold`, `--bg`, fonts DM Serif Display + Inter.
 - **Assets:** `assets/sravan-sindhe.jpg`, `assets/markus-degen.png` — 80px circles in `#about`.
-- **Contact form:** Stub only (`handleForm`); HubSpot embed planned — do not add secrets or unapproved backends.
+- **Contact form:** Posts to the Formspree endpoint in `index.html`. Do not add secrets or a different backend without owner approval.
 - **Changes:** Minimal diffs; match inline styles; push `main` to publish.

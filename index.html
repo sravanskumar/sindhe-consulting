@@ -1238,8 +1238,9 @@
         <p class="contact-body">I take on a small number of engagements at any one time. If what you need is architecture, governance, and honest delivery &#8212; let&#8217;s talk.</p>
         <p class="contact-body">Whether you are establishing your first digital presence or improving an existing CRM, analytics setup or enterprise MarTech stack, I would be glad to discuss the business outcome you need.</p>
 
-        <!-- REPLACE THIS FORM WITH HUBSPOT EMBED WHEN SINDHE CONSULTING PORTAL IS SET UP -->
-        <form aria-label="Non-functional contact form preview" onsubmit="event.preventDefault()" style="display:flex;flex-direction:column;gap:16px;margin-top:8px;">
+        <form id="contact-form" action="https://formspree.io/f/mpppdkvp" method="POST" aria-label="Contact form" style="display:flex;flex-direction:column;gap:16px;margin-top:8px;">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;">
+          <input type="hidden" name="_subject" value="Sindhe Consulting enquiry">
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
             <div>
               <label style="display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:6px;letter-spacing:0.04em;">NAME *</label>
@@ -1271,20 +1272,12 @@
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
             <div>
               <label style="display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:6px;letter-spacing:0.04em;">INDUSTRY</label>
-              <select name="industry" style="width:100%;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:var(--white);font-size:14px;font-family:Arial, Helvetica, sans-serif;outline:none;border-radius:2px;appearance:none;">
-                <option value="" style="background:#1A1A1A;">Select your industry</option>
-                <option value="food-beverage" style="background:#1A1A1A;">Food &amp; Beverage</option>
-                <option value="handicrafts" style="background:#1A1A1A;">Handicrafts &amp; Artisan</option>
-                <option value="retail" style="background:#1A1A1A;">Retail &amp; E-commerce</option>
-                <option value="financial-services" style="background:#1A1A1A;">Financial Services</option>
-                <option value="manufacturing" style="background:#1A1A1A;">Manufacturing</option>
-                <option value="martech-agency" style="background:#1A1A1A;">MarTech / Digital Agency</option>
-                <option value="enterprise" style="background:#1A1A1A;">Enterprise / Corporate</option>
-                <option value="other" style="background:#1A1A1A;">Other</option>
-              </select>
+              <input type="text" name="industry" placeholder="e.g. Food, logistics, financial services"
+                style="width:100%;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:var(--white);font-size:14px;font-family:Arial, Helvetica, sans-serif;outline:none;border-radius:2px;"
+                onfocus="this.style.borderColor='#0F6E56'" onblur="this.style.borderColor='rgba(255,255,255,0.15)'">
             </div>
             <div>
-              <label style="display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:6px;letter-spacing:0.04em;">WHAT ARE YOU LOOKING TO DO * <span style="font-weight:400;opacity:0.5;">— select all that apply</span></label>
+              <label style="display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:6px;letter-spacing:0.04em;">WHAT ARE YOU LOOKING TO DO <span style="font-weight:400;opacity:0.5;">— select any that apply</span></label>
               <div style="display:flex;flex-direction:column;gap:10px;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:2px;">
                 <label style="display:flex;align-items:center;gap:10px;cursor:pointer;font-size:14px;color:rgba(255,255,255,0.8);">
                   <input type="checkbox" name="intent" value="digital-foundation" style="accent-color:#0F6E56;width:16px;height:16px;"> Build a digital foundation
@@ -1298,9 +1291,9 @@
                 <label style="display:flex;align-items:center;gap:10px;cursor:pointer;font-size:14px;color:rgba(255,255,255,0.8);">
                   <input type="checkbox" name="intent" value="ai-automation" style="accent-color:#0F6E56;width:16px;height:16px;"> AI &amp; intelligent automation
                 </label>
-                <label style="display:flex;align-items:center;gap:10px;cursor:pointer;font-size:14px;color:rgba(255,255,255,0.8);">
-                  <input type="checkbox" name="intent" value="other" style="accent-color:#0F6E56;width:16px;height:16px;"> Something else
-                </label>
+                <input type="text" name="intent_other" placeholder="Or describe what you need"
+                  style="width:100%;margin-top:4px;padding:10px 12px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:var(--white);font-size:14px;font-family:Arial, Helvetica, sans-serif;outline:none;border-radius:2px;"
+                  onfocus="this.style.borderColor='#0F6E56'" onblur="this.style.borderColor='rgba(255,255,255,0.15)'">
               </div>
             </div>
           </div>
@@ -1310,12 +1303,15 @@
               style="width:100%;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:var(--white);font-size:14px;font-family:Arial, Helvetica, sans-serif;outline:none;border-radius:2px;resize:vertical;"
               onfocus="this.style.borderColor='#0F6E56'" onblur="this.style.borderColor='rgba(255,255,255,0.15)'"></textarea>
           </div>
-          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
-            <p style="font-size:12px;color:rgba(255,255,255,0.3);margin:0;">Form preview only — no details entered here are transmitted or stored. To contact me, please use email, telephone or LinkedIn.</p>
-            <button type="button" disabled aria-disabled="true" style="font-size:15px;font-weight:600;color:#0F6E56;background:#FFFFFF;padding:14px 32px;border:2px solid #FFFFFF;border-radius:4px;cursor:pointer;font-family:Arial, Helvetica, sans-serif;letter-spacing:0.01em;transition:background 0.15s,color 0.15s;" onmouseover="this.style.background='#F1EFE8';this.style.borderColor='#F1EFE8'" onmouseout="this.style.background='#FFFFFF';this.style.borderColor='#FFFFFF'">Form not active</button>
+          <div id="form-success" role="status" style="display:none;padding:16px 18px;background:#FFFFFF;border-left:4px solid #0F6E56;color:#1A1A1A;font-size:15px;font-weight:600;border-radius:2px;">
+            Thank you. Your enquiry has been sent.
           </div>
-          <div id="form-success" style="display:none;padding:16px;background:rgba(15,110,86,0.2);border:1px solid #0F6E56;color:#FFFFFF;font-size:14px;border-radius:2px;">
-            This form is a preview and does not send enquiries. Please contact me through LinkedIn.
+          <div id="form-error" role="alert" style="display:none;padding:16px 18px;background:#FFFFFF;border-left:4px solid #B8860B;color:#1A1A1A;font-size:15px;font-weight:600;border-radius:2px;">
+            The enquiry could not be sent. Please use email or LinkedIn.
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+            <p style="font-size:12px;color:rgba(255,255,255,0.3);margin:0;">Your enquiry is emailed to me. See the <a href="datenschutz.html" style="color:rgba(255,255,255,0.55);">privacy notice</a>.</p>
+            <button type="submit" style="font-size:15px;font-weight:600;color:#0F6E56;background:#FFFFFF;padding:14px 32px;border:2px solid #FFFFFF;border-radius:4px;cursor:pointer;font-family:Arial, Helvetica, sans-serif;letter-spacing:0.01em;transition:background 0.15s,color 0.15s;" onmouseover="this.style.background='#F1EFE8';this.style.borderColor='#F1EFE8'" onmouseout="this.style.background='#FFFFFF';this.style.borderColor='#FFFFFF'">Send enquiry</button>
           </div>
         </form>
       </div>
@@ -1349,6 +1345,40 @@
     </div>
   </div>
 </footer>
+
+<script>
+  document.getElementById("contact-form").addEventListener("submit", async function (event) {
+    event.preventDefault();
+    var form = event.currentTarget;
+    var button = form.querySelector("button[type=submit]");
+    var success = document.getElementById("form-success");
+    var error = document.getElementById("form-error");
+    success.style.display = "none";
+    error.style.display = "none";
+    button.disabled = true;
+    button.textContent = "Sending…";
+    try {
+      var response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" }
+      });
+      if (response.ok) {
+        form.reset();
+        success.style.display = "block";
+        success.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        error.style.display = "block";
+        error.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    } catch (err) {
+      error.style.display = "block";
+      error.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    button.disabled = false;
+    button.textContent = "Send enquiry";
+  });
+</script>
 
 </body>
 </html>
